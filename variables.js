@@ -10,6 +10,7 @@ h1.innerHTML = "Revisar ejecucion en Consola";
 
 let a=2, b=3, c=8;
 
+console.log("Variable a = "+a+", b = "+b+" y c = "+c);
 if(a>b&&a>c){
     console.log("La variable 'a' = "+a+" tiene mayor valor");
 }else if(b>a&&b>c){
